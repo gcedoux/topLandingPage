@@ -18,7 +18,7 @@ body {
     color: #F9FAF8;
 }
 
-.heroSecondaryText, header ul {
+.heroSecondaryText, header a {
     font-size: 18px;
     color: #E5E7EB;
 }
@@ -29,7 +29,7 @@ header div {
 }
 
 button {
-    color: #3882F6;
+    background: #3882F6;
 }
 
 .cta {
@@ -63,19 +63,66 @@ button{
     padding: 5px 20px;
     border-radius: 8px;
     border: none;
+    color: #F9FAF8;
 }
 
 .cta button{
     border: 2px solid white;
 }
 
+.container, .hContainer {
+    width: 80%;
+}
 
+/*Header*/
+header {
+    background: #1F2937;
+    display: flex;
+    justify-content: center;
+}
 
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 
+header ul{
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
 
+ul a {
+    text-decoration: none;
+}
 
+/*Hero Section*/
+.Hero {
+    display: flex;
+    justify-content: center;
+    padding: 70px 0;
+}
 
+.hContainer {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
 
+.heroSecondaryText {
+    margin-bottom: 5px;
+}
+
+.Hero img {
+    width: 800px;
+    height: 250px;
+}
+
+.hLeftSide {
+}
+
+/*Footer*/
 footer {
     padding: 20px;
     text-align: center;
