@@ -2,46 +2,43 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-}
-
-header div{
-    font-size: 24px;
-    color: #F9FAF8;
-
-}
-
-ul{
-    list-style-type: none;
     padding: 0;
     margin: 0;
 }
 
-a{
-    text-decoration: none;
-}
+/*Font and styles from page helper*/
 
 .Hero, footer {
-    background-color: #1F2937;
+    background: #1F2937;
 }
 
 .heroMainText {
     font-size: 48px;
-    font-weight: 800;
+    font-weight: 800;    
     color: #F9FAF8;
 }
 
-header a,.heroSecondaryText{
+.heroSecondaryText, header ul {
     font-size: 18px;
     color: #E5E7EB;
 }
 
-.Info {
+header div {
+    font-size: 18px;
+    color: #F9FAF8;
+}
 
+button {
+    color: #3882F6;
+}
+
+.cta {
+    background-color: #3882F6;
 }
 
 .infoHeader {
     font-size: 36px;
-    font-weight: 800;
+    font-weight: 800;    
     color: #1F2937;
 }
 
@@ -51,47 +48,36 @@ header a,.heroSecondaryText{
 
 .quoteText {
     font-size: 36px;
-    font-weight: lighter;
+    font-weight: 300;
     font-style: italic;
     color: #1F2937;
 }
 
-
-.cta,button {
-    background-color: #3882f6;
-    color: white;
+/*Changes*/
+img {
+    width: 200px;
+    height: 200px;
 }
 
-
-.cta{
-    display: flex;
-    align-items: center;
-    color: white;
-    justify-content: space-around;
-    border-radius: 8px;
-    padding: 60px 30px;
-    margin: 100px;
-}
-
-.ctaHeader {
-    font-weight: bold;
-}
 button{
-    border-radius: 8px;
     padding: 5px 20px;
+    border-radius: 8px;
+    border: none;
 }
 
 .cta button{
-    border-color: white;
-
+    border: 2px solid white;
 }
 
 
+
+
+
+
+
+
 footer {
-    margin-top: auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     padding: 20px;
+    text-align: center;
     color: white;
 }
